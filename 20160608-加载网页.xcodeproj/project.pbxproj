@@ -13,6 +13,8 @@
 		E1AF04B11D07BD9A002161F1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1AF04AF1D07BD9A002161F1 /* Main.storyboard */; };
 		E1AF04B31D07BD9A002161F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1AF04B21D07BD9A002161F1 /* Assets.xcassets */; };
 		E1AF04B61D07BD9A002161F1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1AF04B41D07BD9A002161F1 /* LaunchScreen.storyboard */; };
+		E1AF04BF1D07BDBF002161F1 /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = E1AF04BD1D07BDBF002161F1 /* index.html */; };
+		E1AF04C01D07BDBF002161F1 /* login.html in Resources */ = {isa = PBXBuildFile; fileRef = E1AF04BE1D07BDBF002161F1 /* login.html */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		E1AF04B21D07BD9A002161F1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E1AF04B51D07BD9A002161F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E1AF04B71D07BD9A002161F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E1AF04BD1D07BDBF002161F1 /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
+		E1AF04BE1D07BDBF002161F1 /* login.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = login.html; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +78,8 @@
 		E1AF04A61D07BD9A002161F1 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				E1AF04BD1D07BDBF002161F1 /* index.html */,
+				E1AF04BE1D07BDBF002161F1 /* login.html */,
 				E1AF04A71D07BD9A002161F1 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -110,6 +116,7 @@
 				TargetAttributes = {
 					E1AF04A21D07BD9A002161F1 = {
 						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = FUV5KWMMAV;
 					};
 				};
 			};
@@ -137,6 +144,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				E1AF04B61D07BD9A002161F1 /* LaunchScreen.storyboard in Resources */,
+				E1AF04BF1D07BDBF002161F1 /* index.html in Resources */,
+				E1AF04C01D07BDBF002161F1 /* login.html in Resources */,
 				E1AF04B31D07BD9A002161F1 /* Assets.xcassets in Resources */,
 				E1AF04B11D07BD9A002161F1 /* Main.storyboard in Resources */,
 			);
@@ -261,6 +270,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = FUV5KWMMAV;
 				INFOPLIST_FILE = "20160608-加载网页/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.hisunpay.www.-0160608-----";
@@ -272,6 +282,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = FUV5KWMMAV;
 				INFOPLIST_FILE = "20160608-加载网页/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.hisunpay.www.-0160608-----";
@@ -298,6 +309,7 @@
 				E1AF04BC1D07BD9A002161F1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
